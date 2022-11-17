@@ -22,7 +22,7 @@ func catetos(a, b Ponto) (cx, cy float64) {
 }
 
 // Distancia é reponsável por calcular a distância linear entre dois pontos
-func distancia(a, b Ponto) float64 {
+func Distancia(a, b Ponto) float64 {
 	cx, cy := catetos(a, b)
 	return math.Sqrt(math.Pow(cx, 2) + math.Pow(cy, 2))
 }
